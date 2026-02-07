@@ -1,2 +1,17 @@
 # leetcode-go
-我的go语言工程化力扣刷题仓库Engineering-oriented LeetCode solutions in Go (tests, benchmarks, and notes)
+
+Engineering-oriented LeetCode solutions in Go.
+
+## Principles
+- One problem, one package
+- Test-first development
+- Benchmarks for performance comparison
+- Notes for every problem
+
+## Structure
+- problems/lcXXXX_xxx
+  - solution.go
+  - solution_test.go
+  - bench_test.go (optional)
+  - README.md
+
